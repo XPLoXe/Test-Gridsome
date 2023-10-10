@@ -7,6 +7,6 @@
 <script>
 export default {
   name: "textseiten",
-  path: "/admin/textseiten/",
+  path: "/admin/textseiten",
 };
 </script>

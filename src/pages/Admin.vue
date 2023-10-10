@@ -5,7 +5,9 @@
       This is the admin page.
       <g-link to="/admin/textseiten">Go to Textseiten</g-link>
       <br />
-      <g-link :to="'/admin/textseiten/' + page.id">Go to Übersetzungen</g-link>
+      <g-link :to="'/admin/textseiten/' + page.id"
+        >Go to Textseiten by id</g-link
+      >
     </Layout>
   </AdminPage>
 </template>
